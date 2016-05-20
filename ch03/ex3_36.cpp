@@ -23,7 +23,7 @@ int main()
     int arr1[3] = { 0, 1, 2 };
     int arr2[3] = { 0, 2, 4 };
 
-    if (compare(begin(arr1), end(arr1), begin(arr2), end(arr2)))
+    if (compare(std::begin(arr1), std::end(arr1), std::begin(arr2), std::end(arr2)))
         cout << "The two arrays are equal." << endl;
     else
         cout << "The two arrays are not equal." << endl;
